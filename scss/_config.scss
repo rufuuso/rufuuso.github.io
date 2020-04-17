@@ -1,0 +1,29 @@
+$primary-color: #0c0e0e;
+$secundary-color: #58A385;
+$detail-color: #5D75A0;
+
+@mixin transition-ease{
+
+    transition: all 0.5s ease-in-out;
+}
+@mixin non-trasition{
+    transition: all 0s ;
+}
+@mixin media-mid {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+    
+}
+@mixin media-lg {
+    @media screen and (min-width: 1028px) {
+        @content;
+    }
+    
+}
+@mixin media-xl {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+    
+}

@@ -1,0 +1,46 @@
+@import "config";
+@import "home";
+@import "menu";
+@import "about";
+@import "portfolio";
+@import "contact";
+@import "responsible";
+
+body{
+    background: 
+        linear-gradient(
+            to right, 
+            rgba($primary-color,.95),
+            rgba($primary-color,0.8)
+        ),url(../img/home.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-position-x: 0rem;
+    text-decoration: none;
+    font-family: 'Alegreya Sans SC', sans-serif;
+     
+
+    
+   
+}
+a{text-decoration: none;
+color: $detail-color;}
+footer{
+    color: $detail-color;
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+
+
+.social-media{
+    position:fixed;
+     bottom: 0.5vh;
+     a{margin: .5rem;}
+     .p{
+         display: flex;
+        
+     }
+    
+}

@@ -1,0 +1,36 @@
+.contact{
+    justify-content: center;
+    text-align: center;
+    padding-top: 15vh;
+    
+    width: 100%;
+    letter-spacing: 0.25rem;
+    
+
+    
+    .myName{
+        font-size: 2.7rem;
+         color: white;
+        .lastName{
+            color: $secundary-color;
+        }
+        border-bottom: 2px solid $secundary-color;
+    }
+    .title{
+        font-size: large;
+        color: $detail-color;
+    }
+
+    .social-media{
+    position: initial;    
+}}
+.my-stuff{
+    font-size: 1.2rem;
+    border-bottom: 2px solid $secundary-color;
+    margin-bottom: 1.7rem;
+    p{
+        color: $secundary-color;
+        font-size: 1.5rem;
+        
+    }
+}

@@ -1,0 +1,51 @@
+@import "config";
+
+.portfolio-title{
+    justify-content: center;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+    width: 100%;
+    letter-spacing: 0.25rem;
+    .myName{
+        font-size: 1.5rem;
+         color: white;
+         padding-bottom: 1.5vh;
+         .lastName{
+             color: $secundary-color;
+        }
+        border-bottom: 2px solid $secundary-color;
+    }   
+}
+.all-works{
+    display: grid;
+    margin: 0 auto;
+    width: 80vw;
+    grid-template-columns: 1fr;
+    // overflow: hidden;
+}
+.exact-work{   
+    width: 75vw;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    p{        
+        position: relative;
+        background: linear-gradient(90deg, 
+        rgba($detail-color,.1)0%,
+        rgba($detail-color,.7)10%,
+        rgba($detail-color,1)100%);
+        box-sizing: border-box;
+        top: -15vh;
+        text-align: right;
+        width: 55vw;
+        right: -25vw;
+        padding: 0.2rem;
+    }
+    img{
+        text-align: center;
+        width: 73vw;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,112 @@
+@import "config";
+@import "menu";
+@import "responsible";
+
+body{
+    background: 
+        linear-gradient(
+            to right, 
+            rgba($primary-color,.95),
+            rgba($primary-color,0.8)
+        ),url(../img/home.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-position-x: 0rem;
+    text-decoration: none;
+    font-family: 'Alegreya Sans SC', sans-serif;
+     
+
+    
+   
+}
+a{text-decoration: none;
+color: $detail-color;}
+footer{
+    color: $detail-color;
+    font-size: .7rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+.social-media{
+    position: absolute;
+    bottom: 0.5rem;
+}
+
+.about{
+    justify-content: center;
+    text-align: center;
+    padding-top: 5vh;
+    width: 100%;
+    letter-spacing: 0.25rem;
+    .myName{
+        font-size: x-large;
+         color: white;
+        .lastName{
+            color: $secundary-color;
+        }
+        border-bottom: 2px solid $secundary-color;
+    }
+    .title{
+        font-size: medium;
+        color: $detail-color;
+    }
+}
+.about-contain{
+    height: 74vh;
+    width: 95vw;
+    overflow: hidden;
+    background-color: rgba($primary-color,0.8);
+    
+    
+        
+
+.vida1{
+    padding: 0.2rem;
+    width: 95vw;
+    height: 35vh;
+    display: inline-block;
+    
+        img{
+        padding: 0.2rem;
+        float: left;
+        width: 40vw;
+        height: 35vh;
+        display: block;
+        object-fit: cover;
+        }
+    p{
+    text-align: left;
+    float: right;
+    width: 50vw;
+    color: white;
+    }
+}
+.vida2{
+    padding: 0.2rem;
+    width: 95vw;
+    height: 35vh;
+    display: inline-block;
+    
+        img{
+        padding: 0.2rem;
+        float: left;
+        width: 40vw;
+        height: 35vh;
+        display: block;
+        object-fit: cover;
+        ;
+        }
+    p{
+
+        text-align: left;
+        float: right;
+        width: 50vw;
+        color: white;
+    }
+}
+  
+
+    
+}
