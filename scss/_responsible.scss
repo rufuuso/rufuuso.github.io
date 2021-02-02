@@ -6,15 +6,20 @@
          &::before{transition-duration: 0s;}
          &::after{transition-duration: 0s;}
     }
+    ul{
+        height: 50px;
+        display: none;
+    }
     .nav{
         visibility: visible;
         z-index: 1;
+        height: 5vh;
         .menu-nav{
             display: block;
             transform: translateY(0);
-            height: 100%;
+            height: 50px;
             text-align: right;
-            background: transparent;
+            background: $primary-color;
             margin-top: 0;
             
 
