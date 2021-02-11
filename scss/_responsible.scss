@@ -61,3 +61,11 @@
  .myName{
      font-size: 3rem;
  }
+@include media-small{
+    .home{
+        padding-top: 10%;
+    }
+    .home h2{
+        margin-bottom: 0;
+    }
+}

@@ -3,7 +3,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 10vh;
   width: 100%;
   letter-spacing: 0.25rem;
 }
@@ -132,6 +132,15 @@ h5 {
   font-size: 3rem;
 }
 
+@media screen and (max-width: 400px) {
+  .home {
+    padding-top: 10%;
+  }
+  .home h2 {
+    margin-bottom: 0;
+  }
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -145,7 +154,7 @@ h5 {
 
 .nav.open {
   visibility: visible;
-  z-index: 1;
+  z-index: 5;
 }
 
 .nav .menu-nav {
@@ -263,7 +272,7 @@ h5 {
   -webkit-transform: rotate(720deg);
           transform: rotate(720deg);
   background: transparent;
-  z-index: 2;
+  z-index: 6;
 }
 
 .menu-btn__burger.open::before {
@@ -368,6 +377,15 @@ h5 {
   font-size: 3rem;
 }
 
+@media screen and (max-width: 400px) {
+  .home {
+    padding-top: 10%;
+  }
+  .home h2 {
+    margin-bottom: 0;
+  }
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -381,7 +399,7 @@ h5 {
 
 .nav.open {
   visibility: visible;
-  z-index: 1;
+  z-index: 5;
 }
 
 .nav .menu-nav {
@@ -499,7 +517,7 @@ h5 {
   -webkit-transform: rotate(720deg);
           transform: rotate(720deg);
   background: transparent;
-  z-index: 2;
+  z-index: 6;
 }
 
 .menu-btn__burger.open::before {
@@ -602,6 +620,15 @@ h5 {
 
 .myName {
   font-size: 3rem;
+}
+
+@media screen and (max-width: 400px) {
+  .home {
+    padding-top: 10%;
+  }
+  .home h2 {
+    margin-bottom: 0;
+  }
 }
 
 body {
@@ -881,6 +908,15 @@ footer {
 
 .myName {
   font-size: 3rem;
+}
+
+@media screen and (max-width: 400px) {
+  .home {
+    padding-top: 10%;
+  }
+  .home h2 {
+    margin-bottom: 0;
+  }
 }
 
 body {
