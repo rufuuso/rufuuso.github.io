@@ -650,13 +650,15 @@ a {
 footer {
   color: #5D75A0;
   font-size: .7rem;
-  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
   bottom: 0.5rem;
   right: 0.5rem;
 }
 
 .social-media {
-  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
   bottom: 0.5rem;
 }
 
@@ -686,16 +688,13 @@ footer {
 }
 
 .about-contain {
-  height: 74vh;
-  width: 95vw;
-  overflow: hidden;
+  padding: 2vw;
   background-color: rgba(12, 14, 14, 0.8);
 }
 
 .about-contain .vida1 {
   padding: 0.2rem;
   width: 95vw;
-  height: 35vh;
   display: inline-block;
 }
 
@@ -720,24 +719,19 @@ footer {
   padding: 0.2rem;
   width: 95vw;
   height: 35vh;
-  display: inline-block;
 }
 
-.about-contain .vida2 img {
+.about-contain .vida2 .html {
   padding: 0.2rem;
   float: left;
   width: 40vw;
-  height: 35vh;
   display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
-.about-contain .vida2 p {
+.about-contain .vida2 .api, .about-contain .vida2 .sass, .about-contain .vida2 .jq, .about-contain .vida2 .b {
   text-align: left;
   float: right;
-  width: 50vw;
-  color: white;
+  max-height: 10vw;
 }
 
 .portfolio-title {

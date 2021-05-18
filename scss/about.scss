@@ -24,14 +24,17 @@ a{text-decoration: none;
 color: $detail-color;}
 footer{
     color: $detail-color;
+    display: inline-block;
     font-size: .7rem;
-    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
     bottom: 0.5rem;
     right: 0.5rem;
 }
 .social-media{
-    position: absolute;
-    bottom: 0.5rem;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 1rem;
 }
 
 .about{
@@ -54,9 +57,8 @@ footer{
     }
 }
 .about-contain{
-    height: 74vh;
-    width: 95vw;
-    overflow: hidden;
+    padding: 2vw;
+    
     background-color: rgba($primary-color,0.8);
     
     
@@ -65,7 +67,7 @@ footer{
 .vida1{
     padding: 0.2rem;
     width: 95vw;
-    height: 35vh;
+    
     display: inline-block;
     
         img{
@@ -87,24 +89,23 @@ footer{
     padding: 0.2rem;
     width: 95vw;
     height: 35vh;
-    display: inline-block;
     
-        img{
+    
+        .html{
         padding: 0.2rem;
         float: left;
         width: 40vw;
-        height: 35vh;
         display: block;
-        object-fit: cover;
-        ;
-        }
-    p{
+        
+        
+        }.api, .sass, .jq, .b{
 
-        text-align: left;
-        float: right;
-        width: 50vw;
-        color: white;
-    }
+            text-align: left;
+            float: right;
+            max-height: 10vw;
+            
+        }
+    
 }
   
 
